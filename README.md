@@ -20,12 +20,23 @@ js-practice/
 │   ├── q8.js
 │   ├── q9.js
 │   └── q10.js
-└── condition-challenges/  # Conditional logic exercises
+├── condition-challenges/  # Conditional logic exercises
+│   ├── q1.js
+│   ├── q2.js
+│   ├── q3.js
+│   ├── q4.js
+│   └── q5.js
+└── loop-challenges/       # Loop-based exercises
     ├── q1.js
     ├── q2.js
     ├── q3.js
     ├── q4.js
-    └── q5.js
+    ├── q5.js
+    ├── q6.js
+    ├── q7.js
+    ├── q8.js
+    ├── q9.js
+    └── q10.js
 ```
 
 ## Topics Covered
@@ -35,6 +46,7 @@ js-practice/
 - **Prototypes & Inheritance** - Understanding prototype chains with `Object.setPrototypeOf()` and `Object.getPrototypeOf()`
 - **Array Challenges** - Practice problems in the `array-challenges/` folder
 - **Conditional Logic** - Decision-making exercises in the `condition-challenges/` folder
+- **Loop Challenges** - Iteration practice in the `loop-challenges/` folder
 
 ## Getting Started
 
@@ -53,6 +65,9 @@ Example:
 ```bash
 node helloWorld.js
 node constructorFunction.js
+node array-challenges/q1.js
+node condition-challenges/q1.js
+node loop-challenges/q1.js
 ```
 
 ## Learning Goals
@@ -62,3 +77,4 @@ This repository is designed to reinforce core JavaScript concepts through hands-
 - Prototype-based inheritance
 - Array operations and problem-solving
 - Conditional statements and logic
+- Loops and iteration patterns
