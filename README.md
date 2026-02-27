@@ -5,7 +5,7 @@ A collection of JavaScript learning exercises covering fundamental programming c
 ## Project Structure
 
 ```
-js-practice/
+JS_PRACTICE/
 ├── helloWorld.js          # Basic console output
 ├── constructorFunction.js # Constructor function pattern and object instantiation
 ├── prototypes.js          # Prototype chain and object inheritance
@@ -21,6 +21,12 @@ js-practice/
 │   ├── q9.js
 │   └── q10.js
 ├── condition-challenges/  # Conditional logic exercises
+│   ├── q1.js
+│   ├── q2.js
+│   ├── q3.js
+│   ├── q4.js
+│   └── q5.js
+├── function-challenges/   # Function and callback exercises
 │   ├── q1.js
 │   ├── q2.js
 │   ├── q3.js
@@ -46,6 +52,7 @@ js-practice/
 - **Prototypes & Inheritance** - Understanding prototype chains with `Object.setPrototypeOf()` and `Object.getPrototypeOf()`
 - **Array Challenges** - Practice problems in the `array-challenges/` folder
 - **Conditional Logic** - Decision-making exercises in the `condition-challenges/` folder
+- **Functions & Callbacks** - Function-focused exercises in the `function-challenges/` folder
 - **Loop Challenges** - Iteration practice in the `loop-challenges/` folder
 
 ## Getting Started
@@ -67,6 +74,7 @@ node helloWorld.js
 node constructorFunction.js
 node array-challenges/q1.js
 node condition-challenges/q1.js
+node function-challenges/q1.js
 node loop-challenges/q1.js
 ```
 
@@ -76,5 +84,6 @@ This repository is designed to reinforce core JavaScript concepts through hands-
 - Object creation patterns
 - Prototype-based inheritance
 - Array operations and problem-solving
+- Function declarations, expressions, and callbacks
 - Conditional statements and logic
 - Loops and iteration patterns
