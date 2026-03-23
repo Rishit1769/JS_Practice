@@ -1,19 +1,19 @@
 # JavaScript Practice
 
-Structured JavaScript practice repository focused on core language fundamentals and object-oriented programming concepts.
+Practical JavaScript learning repository focused on fundamentals, object-oriented programming, and small problem-solving exercises.
 
 ## Overview
 
-This repository demonstrates practical JavaScript understanding through:
+This project is organized into two learning styles:
 
-- Concept-focused files for OOP and language features
-- Challenge-based exercises for arrays, conditions, functions, and loops
-- Small, runnable examples that reinforce one concept at a time
+- Concept-first standalone files for core JavaScript and OOP ideas
+- Question-based challenge folders for arrays, conditions, functions, loops, and basic DOM work
 
-## Repository Structure
+## Current Project Structure
 
 ```text
 JS_PRACTICE/
+|-- README.md
 |-- helloWorld.js
 |-- constructorFunction.js
 |-- class.js
@@ -23,68 +23,99 @@ JS_PRACTICE/
 |-- polymorphism.js
 |-- static.js
 |-- gettersSetters.js
-|-- README.md
 |-- array-challenges/
-|   |-- q1.js ... q10.js
+|   |-- q1.js
+|   |-- q2.js
+|   |-- q3.js
+|   |-- q4.js
+|   |-- q5.js
+|   |-- q6.js
+|   |-- q7.js
+|   |-- q8.js
+|   |-- q9.js
+|   |-- q10.js
 |-- condition-challenges/
-|   |-- q1.js ... q5.js
+|   |-- q1.js
+|   |-- q2.js
+|   |-- q3.js
+|   |-- q4.js
+|   |-- q5.js
 |-- function-challenges/
-|   |-- q1.js ... q5.js
+|   |-- q1.js
+|   |-- q2.js
+|   |-- q3.js
+|   |-- q4.js
+|   |-- q5.js
 |-- loop-challenges/
-|   |-- q1.js ... q10.js
+|   |-- q1.js
+|   |-- q2.js
+|   |-- q3.js
+|   |-- q4.js
+|   |-- q5.js
+|   |-- q6.js
+|   |-- q7.js
+|   |-- q8.js
+|   |-- q9.js
+|   |-- q10.js
+|-- DOM-exercise/
+|   |-- q1/
+|       |-- index.html
+|       |-- index.js
 ```
 
-## JavaScript Concepts and Definitions
+## Concept Files
 
-| Concept | Definition | Example File |
-|---|---|---|
-| Hello World | Basic program output using `console.log` to verify runtime setup. | `helloWorld.js` |
-| Constructor Function | A function used with `new` to create object instances with shared structure. | `constructorFunction.js` |
-| Class | Modern syntax for creating blueprints for objects, including constructors and methods. | `class.js` |
-| Prototypes | JavaScript inheritance model where objects can inherit properties and methods through the prototype chain. | `prototypes.js` |
-| Encapsulation | Restricting direct access to internal data and exposing controlled methods to interact with it. | `encapsulation.js` |
-| Abstraction | Hiding complex internal implementation details and exposing only essential behavior. | `abstraction.js` |
-| Polymorphism | Same method name with different behavior depending on the object or class implementation. | `polymorphism.js` |
-| Static Methods | Class-level methods that belong to the class itself, not to individual instances. | `static.js` |
-| Getters and Setters | Controlled property access using `get` and `set`, often for validation and formatting. | `gettersSetters.js` |
+| File | Focus Area |
+|---|---|
+| helloWorld.js | JavaScript runtime and console output basics |
+| constructorFunction.js | Object creation with constructor functions |
+| class.js | ES6 class syntax and object modeling |
+| prototypes.js | Prototype chain and shared behavior |
+| encapsulation.js | Data protection through controlled access |
+| abstraction.js | Hiding implementation details behind simple interfaces |
+| polymorphism.js | Same method interface, different behavior |
+| static.js | Class-level members and utility behavior |
+| gettersSetters.js | Controlled property access using getters and setters |
 
-## Challenge Sets
+## Challenge Modules
 
-- `array-challenges/`: Array operations and problem-solving
-- `condition-challenges/`: Conditional statements and decision logic
-- `function-challenges/`: Functions, parameters, return values, and callbacks
-- `loop-challenges/`: Iteration patterns and loop-based logic
+- array-challenges: 10 questions on array operations and transformations
+- condition-challenges: 5 questions on conditional logic
+- function-challenges: 5 questions on function design and usage
+- loop-challenges: 10 questions on iteration and loop patterns
+- DOM-exercise: Basic DOM interaction tasks using HTML and JavaScript
 
-## Run the Code
+## How to Run
 
 ### Prerequisite
 
-- Node.js installed
+- Node.js installed for .js concept and challenge files
 
-### Command
+### Run a JavaScript File
 
 ```bash
-node <file-name>.js
+node <path-to-file>.js
 ```
 
-### Examples
+Examples:
 
 ```bash
 node helloWorld.js
 node class.js
-node gettersSetters.js
 node array-challenges/q1.js
+node loop-challenges/q10.js
 ```
 
-## Recent Update
+### Run DOM Exercise
 
-- Added and documented a basic `gettersSetters.js` example with setter validation for empty input.
+- Open DOM-exercise/q1/index.html in a browser.
+- Keep index.html and index.js in the same folder so script linking works correctly.
 
-## Learning Outcome
+## Learning Outcomes
 
-By working through this repository, you strengthen:
+By completing this repository, you build:
 
-- Core JavaScript syntax and runtime confidence
-- OOP fundamentals in JavaScript
-- Problem-solving through focused coding exercises
-- Understanding of inheritance, data protection, and method behavior
+- Strong JavaScript syntax and execution fundamentals
+- Practical understanding of object-oriented programming in JavaScript
+- Structured problem-solving habits across common interview-style question types
+- Introductory DOM manipulation confidence for browser-based tasks
