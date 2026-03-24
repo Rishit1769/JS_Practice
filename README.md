@@ -61,6 +61,18 @@ JS_PRACTICE/
 |   |-- q1/
 |       |-- index.html
 |       |-- index.js
+|   |-- q2/
+|       |-- index.html
+|       |-- index.js
+|   |-- q3/
+|       |-- index.html
+|       |-- index.js
+|   |-- q4/
+|       |-- index.html
+|       |-- index.js
+|   |-- q5/
+|       |-- index.html
+|       |-- index.js
 ```
 
 ## Concept Files
@@ -108,7 +120,16 @@ node loop-challenges/q10.js
 
 ### Run DOM Exercise
 
-- Open DOM-exercise/q1/index.html in a browser.
+- Open any DOM exercise page in a browser, for example:
+
+```bash
+DOM-exercise/q1/index.html
+DOM-exercise/q2/index.html
+DOM-exercise/q3/index.html
+DOM-exercise/q4/index.html
+DOM-exercise/q5/index.html
+```
+
 - Keep index.html and index.js in the same folder so script linking works correctly.
 
 ## Learning Outcomes
