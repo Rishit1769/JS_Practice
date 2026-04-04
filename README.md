@@ -18,11 +18,18 @@ JS_PRACTICE/
 |-- constructorFunction.js
 |-- class.js
 |-- prototypes.js
+|-- closure.js
+|-- thisContext.js
 |-- encapsulation.js
 |-- abstraction.js
 |-- polymorphism.js
 |-- static.js
 |-- gettersSetters.js
+|-- promises.js
+|-- asyncAwait.js
+|-- ES6/
+|   |-- app.js
+|   |-- Maths.js
 |-- array-challenges/
 |   |-- q1.js
 |   |-- q2.js
@@ -83,11 +90,15 @@ JS_PRACTICE/
 | constructorFunction.js | Object creation with constructor functions |
 | class.js | ES6 class syntax and object modeling |
 | prototypes.js | Prototype chain and shared behavior |
+| closure.js | Function scope, encapsulation, and closures |
+| thisContext.js | Understanding the `this` keyword and context binding |
 | encapsulation.js | Data protection through controlled access |
 | abstraction.js | Hiding implementation details behind simple interfaces |
 | polymorphism.js | Same method interface, different behavior |
 | static.js | Class-level members and utility behavior |
 | gettersSetters.js | Controlled property access using getters and setters |
+| promises.js | Asynchronous programming with Promises |
+| asyncAwait.js | Async/await syntax for handling asynchronous code |
 
 ## Challenge Modules
 
@@ -96,6 +107,10 @@ JS_PRACTICE/
 - function-challenges: 5 questions on function design and usage
 - loop-challenges: 10 questions on iteration and loop patterns
 - DOM-exercise: Basic DOM interaction tasks using HTML and JavaScript
+
+## Module Demonstrations
+
+- ES6: ES6 modules example with named and default imports/exports
 
 ## How to Run
 
