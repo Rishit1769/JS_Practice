@@ -80,6 +80,11 @@ JS_PRACTICE/
 |   |-- q5/
 |       |-- index.html
 |       |-- index.js
+|-- ProjectsinJs/
+|   |-- todoWithLocalStorage/
+|       |-- index.html
+|       |-- index.js
+|       |-- style.css
 ```
 
 ## Concept Files
@@ -111,6 +116,12 @@ JS_PRACTICE/
 ## Module Demonstrations
 
 - ES6: ES6 modules example with named and default imports/exports
+
+## Projects
+
+- **todoWithLocalStorage**: A complete to-do list application with dark mode styling, localStorage persistence, add/delete tasks, and mark tasks as completed with strikethrough effect
+  - Features: Task management, local storage, dark mode UI, checkbox completion
+  - Files: index.html, index.js, style.css
 
 ## How to Run
 
@@ -146,6 +157,16 @@ DOM-exercise/q5/index.html
 ```
 
 - Keep index.html and index.js in the same folder so script linking works correctly.
+
+### Run Projects
+
+- Open project HTML files in a browser:
+
+```bash
+ProjectsinJs/todoWithLocalStorage/index.html
+```
+
+- Projects are complete applications with their own styling and functionality
 
 ## Learning Outcomes
 
