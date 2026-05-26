@@ -1,9 +1,16 @@
-// Write an arrow function named calculateTotal that takes two parameters: price and quantity. The function should return the total cost by multiplying the price and quantity. Store the result in a variable named totalCost.
+// Function Challenge Q3 - Arrow Function
+// Objective: Use ES6 arrow function syntax for a concise function definition
 
+// Arrow function: Modern ES6 syntax using => operator
+// Parameters: price, quantity
+// Syntax: const functionName = (param1, param2) => { function body }
 const calculateTotal = (price,quantity) =>{
+    // Return statement: Multiply price by quantity to get total cost
     return price*quantity
 };
 
-let totalCost = calculateTotal(10,5)
+// Store the function result in a variable
+let totalCost = calculateTotal(10,5)  // 10 * 5 = 50
 
-console.log(totalCost)
+// Output the total cost
+console.log(totalCost)  // Output: 50
