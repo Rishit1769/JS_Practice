@@ -12,7 +12,7 @@ This project is organized into two learning styles:
 ## Current Project Structure
 
 ```text
-JS_PRACTICE/
+JS_Practice/
 |-- README.md
 |-- helloWorld.js
 |-- constructorFunction.js
@@ -66,25 +66,37 @@ JS_PRACTICE/
 |   |-- q10.js
 |-- DOM-exercise/
 |   |-- q1/
-|       |-- index.html
-|       |-- index.js
+|   |   |-- index.html
+|   |   |-- index.js
 |   |-- q2/
-|       |-- index.html
-|       |-- index.js
+|   |   |-- index.html
+|   |   |-- index.js
 |   |-- q3/
-|       |-- index.html
-|       |-- index.js
+|   |   |-- index.html
+|   |   |-- index.js
 |   |-- q4/
-|       |-- index.html
-|       |-- index.js
+|   |   |-- index.html
+|   |   |-- index.js
 |   |-- q5/
-|       |-- index.html
-|       |-- index.js
-|-- ProjectsinJs/
+|   |   |-- index.html
+|   |   |-- index.js
+|-- NodeJS/
+|   |-- tasks.json
+|   |-- todo.js
+|   |-- Nginx-Server/
+|   |   |-- about.html
+|   |   |-- contact.html
+|   |   |-- index.html
+|   |   |-- server.js
+|-- ProjectsInJs/
 |   |-- todoWithLocalStorage/
-|       |-- index.html
-|       |-- index.js
-|       |-- style.css
+|   |   |-- index.html
+|   |   |-- index.js
+|   |   |-- style.css
+|   |-- WeatherApp/
+|   |   |-- index.html
+|   |   |-- index.js
+|   |   |-- style.css
 ```
 
 ## Concept Files
